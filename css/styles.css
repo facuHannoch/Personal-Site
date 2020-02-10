@@ -1,0 +1,127 @@
+body {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  color: #40514E;
+}
+p {
+  line-height: 2;
+}
+div {
+}
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; 100% = 16px = 1em
+  width: 65%;
+  margin: 50px auto 0;
+  color: #66BFBF;
+}
+h2 {
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3 {
+  color: #11999E;
+}
+h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color: #11999E;
+  text-decoration: none;
+  margin: 15px;
+}
+a:hover {
+  color: inherit;
+}
+
+.topContainer {
+  background-color: #a0ffe6;
+  position: relative;
+  padding-top: 75px;
+}
+.middle-container {
+}
+.bottom-container {
+  padding: 1.5rem 1rem 1rem;
+  background-color: #66BFBF;
+/* display: none; saca el elemento de la pantalla, y (a diferencia de setVisibility) todos los otros elementos ocuparán su lugar*/
+
+}
+  /* if the div is not relative, the children go out of the div*/
+  /* if the parent isn't relative, to set up the child as absolute will make that the child be relative to the body */
+.topCloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottomCloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+  margin: 100px auto;
+}
+.skillIm {
+  margin: 30px;
+  width: 25%;
+  float: left;
+}
+.skillDes {
+  clear: right;
+}
+.linea {
+  border-style: dotted none none;
+  border-width: 0.5rem;
+  border-color: grey;
+  width: 5rem;
+  margin: 2.5rem auto ;
+}
+.btn {
+  display: inline-block;
+  margin: 10px auto;
+  color: rgb(230, 230, 230);
+  font-size: 30px;
+  padding: 12px;
+  text-shadow: 0px -1px 3px rgba(30, 30, 30, 0.8);
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  background: #ff5151;/*rgb(255, 81, 81);*/
+  background: -moz-linear-gradient(42deg, rgb(255, 81, 81) 100%, rgb(250, 20, 20) 70%);
+  background: -webkit-linear-gradient(42deg, rgb(255, 81, 81) 100%, rgb(250, 20, 20) 70%);
+  background: -o-linear-gradient(42deg, rgb(255, 81, 81) 100%, rgb(250, 20, 20) 70%);
+  background: -ms-linear-gradient(42deg, rgb(255, 81, 81) 100%, rgb(250, 20, 20) 70%);
+  background: linear-gradient(312deg, rgb(255, 81, 81) 100%, rgb(250, 20, 20) 70%);
+  -webkit-box-shadow: 0px 2px 15px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 2px 15px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 2px 15px rgba(50, 50, 50, 0.75);
+}
+.btn:hover {
+  color: #EAF6F6;
+  background: #30E3CB;
+  background: -moz-linear-gradient(42deg, #30E3CB 100%, #2BC4AD 70%);
+  background: -webkit-linear-gradient(42deg, #30E3CB 100%, #2BC4AD 70%);
+  background: -o-linear-gradient(42deg, #30E3CB 100%, #2BC4AD 70%);
+  background: -ms-linear-gradient(42deg, #30E3CB 100%, #2BC4AD 70%);
+  background: linear-gradient(312deg, #30E3CB 100%, #2BC4AD 70%);
+}
+
+
+#imS1 {
+  float: left;
+}
+#imS2 {
+  float: right;
+}
+#dateText {
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px;
+}
